@@ -7,6 +7,14 @@
         padding-left: 94px;
     }
 
+    &--title-wrap {
+        @mixin atMedium {
+            @media (max-width: 958px){
+                padding-bottom: .502rem;
+            }
+        }
+    }
+
     &__icon {
         display: block;
         margin-left: auto;

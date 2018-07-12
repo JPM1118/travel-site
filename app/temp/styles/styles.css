@@ -920,6 +920,15 @@ a {
 }
     }
 
+@media (min-width: 800px) {
+            @media (max-width: 958px){
+
+.feature-item--title-wrap {
+                padding-bottom: .502rem
+    }
+            }
+    }
+
 .feature-item__icon {
         display: block;
         margin-left: auto;
