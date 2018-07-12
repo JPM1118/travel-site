@@ -38,4 +38,12 @@
             text-align: left;
         }
     }
+
+    &--wrap-title {
+        @mixin atMedium{
+            @media (max-width: 958px){
+              padding-bottom: .52625rem;
+            }
+        }
+    }
 }
