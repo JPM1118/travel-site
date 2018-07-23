@@ -1,2 +1,7 @@
 {
+    "vscode-janus-debug.uploadManually": [
+        "scripts",
+        "watch",
+        "App"
+    ]
 }
