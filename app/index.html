@@ -22,7 +22,7 @@
 
       <div class="site-header__menu-content">
         <div class="site-header__btn-container">
-          <a class="btn" href="#">Get in Touch</a>
+          <a class="btn open-modal" href="#">Get in Touch</a>
         </div>
         <nav class="primary-nav primary-nav--pull-right">
           <ul>
@@ -56,7 +56,7 @@
         <h2 class="large-hero__subtitle">One trip away.</h2>
         <p class="large-hero__description">We create soul restoring journeys that inspire you to be you.</p>
         <p>
-          <a class="btn btn--orange btn--large" href="#">Get Started Today</a>
+          <a class="btn btn--orange btn--large open-modal" href="#">Get Started Today</a>
         </p>
       </div>
     </div>
@@ -117,7 +117,7 @@
       <div class="row row--gutters-large generic-content-container">
         <div class="row__medium-6">
           <div class="feature-item feature-item--title-wrap">
-            <img class="feature-item__icon" src="assets/images/icons/rain.svg">
+            <span class="feature-item__icon icon icon--rain" ></span>
             <h3 class="feature-item__title">We&rsquo;ll Watch the Weather</h3>
             <p>Download our app and we&rsquo;ll send you a notice if it&rsquo;s about to rain in the next 20 minutes around
               your current location. A good rain can be refreshing, but sometimes you just want to stay dry.</p>
@@ -147,9 +147,6 @@
           </div>
         </div>
       </div>
-
-
-
     </div>
   </div>
 
@@ -202,13 +199,35 @@
       </div>
     </div>
   </div>
-    <footer class="site-footer">
-      <div class="wrapper">
-        <p><span class="site-footer__text">Copyright &copy; 2016 Clear View Escapes. All rights reserved.</span>
-          <a class="btn btn--orange" href="#">Get in Touch</a>
+  <footer class="site-footer">
+    <div class="wrapper">
+      <p><span class="site-footer__text">Copyright &copy; 2016 Clear View Escapes. All rights reserved.</span>
+        <a class="btn btn--orange open-modal" href="#">Get in Touch</a>
+      </p>
+    </div>
+  </footer>
+
+  <div class="modal">
+    <div class="modal__inner">
+      <h2 class="section-title section-title--blue section-title--less-margin">
+        <span class="section-title__icon icon icon--mail"></span> Get in
+        <strong>Touch</strong>
+      </h2>
+      <div class="wrapper wrapper--narrow">
+        <p class="modal__description">We will have an online order system in place soon. Until then, connect with us on any of the platforms below!
         </p>
       </div>
-    </footer>
+      <div class="social-icons">
+        <a href="#" class="social-icons__icon"><span class="icon icon--facebook"></span></a>
+        <a href="#" class="social-icons__icon"><span class="icon icon--twitter"></span></a>
+        <a href="#" class="social-icons__icon"><span class="icon icon--instagram"></span></a>
+        <a href="#" class="social-icons__icon"><span class="icon icon--youtube"></span></a>
+      </div>
+    </div>
+
+    <div class="modal__close">X</div>
+  </div>
+
     <script src="/temp/scripts/App.js"></script>
 </body>
 
